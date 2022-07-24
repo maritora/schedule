@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  stday: 2022-07-22
+  endday: 2022-07-22
+  shujitsu: MyString
+  memo: MyString
+
+two:
+  title: MyString
+  stday: 2022-07-22
+  endday: 2022-07-22
+  shujitsu: MyString
+  memo: MyString

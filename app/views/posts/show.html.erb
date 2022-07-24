@@ -1,0 +1,32 @@
+<%= render "shared/header" %>
+ <h3>スケジュール詳細</h3>
+ 
+ <table>
+   <tr>
+     <th>タイトル</th>
+     <td><%= @post.title %></td>
+   </tr>
+   <tr>
+     <th>開始日</th>
+     <td><%= @post.stday %></td>
+   </tr>
+   <tr>
+     <th>投稿日時</th>
+     <td><%= @post.created_at.strftime("%Y-%m-%d %H:%M") %></td>
+   </tr>
+   <tr>
+     <th>終日</th>
+     <td><%= @post.shujitsu %></td>
+   </tr>
+   <tr>
+     <th>スケジュールメモ</th>
+     <td><%= @post.memo %></td>
+   </tr>
+ </table>
+ 
+ <div>
+   <ul>
+     <li><%= link_to "スケジュール一覧に戻る", :posts %></li>
+   </ul>
+ </div>
+<%= render "shared/footer" %>
